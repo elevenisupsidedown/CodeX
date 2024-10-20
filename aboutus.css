@@ -1,0 +1,29 @@
+.about-us {
+    margin-top: -10vw;
+    position: relative;
+    z-index: 5;
+    background-color: black;
+}
+
+.section {
+    margin-left: 10vw;
+    margin-right: 50vw;
+}
+
+.sectionh1 {
+    font-family: "Syne", system-ui;
+    font-weight: 600;
+    font-size: 6vw;
+    text-shadow: 4px 4px 10px rgba(0, 62, 155, 0.76);
+    margin-top: 40vw;
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+    color: #fff;
+}
+
+.sectionp {
+    font-family: "Work Sans", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 2vw;
+}

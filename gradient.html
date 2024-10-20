@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Background Transition</title>
+    <style>
+        /* CSS for smooth background transition */
+        .section-image {
+            height: 100vh; /* Adjust this as needed */
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, #f2f2f2 100%), 
+                        url('./Assets/52bb6b3e52509d129c4bcb04ad74b3a0.jpg') center/cover no-repeat;
+        }
+
+        .section-plain {
+            background-color: #f2f2f2; /* Same color as the end of the gradient */
+            height: 100vh; /* Adjust this as needed */
+        }
+
+        /* Optional: Basic styling */
+        .content {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Section with background image -->
+    <div class="section-image">
+        <div class="content">
+            <h1>Welcome to Our Website</h1>
+            <p>This section has a beautiful image background that fades into a solid color.</p>
+        </div>
+    </div>
+
+    <!-- Section with plain background color -->
+    <div class="section-plain">
+        <div class="content">
+            <h2>Next Section</h2>
+            <p>This section continues with a solid background color.</p>
+        </div>
+    </div>
+</body>
+</html>
