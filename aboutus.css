@@ -1,11 +1,15 @@
 .about-us {
-    margin-top: -10vw;
+    margin-top: -8vw;
     position: relative;
     z-index: 5;
     background-color: black;
+    height: 1000px;
+    width: 100%;
 }
 
 .section {
+    position: sticky;
+    top: 5vw;
     margin-left: 10vw;
     margin-right: 50vw;
 }
@@ -26,4 +30,9 @@
     color: #fff;
     font-weight: 300;
     font-size: 2vw;
+}
+
+.galaxy{
+    width: 30vw;
+    margin-left: 60vw;
 }
