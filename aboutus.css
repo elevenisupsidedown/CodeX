@@ -36,3 +36,12 @@
     width: 30vw;
     margin-left: 60vw;
 }
+
+.events{
+    margin-top: -50vw;
+    position: relative;
+    z-index: 5;
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+}
