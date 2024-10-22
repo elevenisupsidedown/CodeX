@@ -8,5 +8,5 @@ window.addEventListener('load', function () {
             loaderContainer.style.display = 'none';
             document.getElementById('content').style.display = 'block';
         }, 800);
-    }, 2000);
+    }, 3000);
 });

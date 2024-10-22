@@ -1,11 +1,16 @@
 .events{
     background-color: #000000;
-    height: 700vh;
+    height: auto;
+    padding-bottom: 10vw;
+    margin-top: -50vw;
+    position: relative;
+    z-index: 5;
+    width: 100%;
 }
 
 .card-container{
     margin-bottom: 20vh;
-    margin-left: 800px;
+    margin-left: 60vw;
     background-color: #000000;
 }
 
@@ -16,7 +21,7 @@
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    padding: 20px 20px 20px 20px;
+    padding: 2vw;
     transition: transform 0.3s;
     background-color: #1c1f2b;
     box-shadow: 0 0 20px rgba(0, 62, 155, 0.384);
@@ -62,3 +67,39 @@ h3 {
     color: #ffffff;
 }
 
+@media (max-width: 768px) {
+    .card-container {
+        margin: auto;
+        width: 70%;
+        margin-top: 20vw;
+    }
+
+    .section {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .card1 {
+        width: 90%;
+        margin: 2vw auto;
+    }
+
+    .card-h3 {
+        font-size: 5vw;
+    }
+
+    .card-p {
+        font-size: 3vw;
+}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .events{
+        margin-top: -20vw;
+        margin-top: -30vw;
+    }
+    .card1 {
+        width: 90%;
+        margin: 5vw;
+    }
+}

@@ -3,7 +3,7 @@
     flex-direction: row;  
     justify-content: center;
     align-items: center;
-    margin-top: -10vw;
+    margin-top: -13vw;
     position: relative;
     z-index: 5;
     background-color: black;
@@ -17,7 +17,7 @@
     text-align: center;
     background: none;
     width: auto;
-    margin-bottom: 2vw;  
+    margin-bottom: 1vw;  
     margin-top: -10px;
     gap: 2vw;
     flex-direction: column;
@@ -27,7 +27,7 @@
 .counter {
     font-family: "Syne", system-ui;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 130px;
     text-align: center;
     text-shadow: 4px 4px 10px rgba(0, 62, 155, 0.76);
     color: #fff;
@@ -46,7 +46,7 @@
 @media (min-width: 769px) and (max-width: 1024px) {
     .counter-item {
         margin: 2vw;
-        margin-top: -200px;
+        margin-top: -70vw;
         gap: 1vw;
     }
     .counter-cap {
@@ -54,21 +54,28 @@
         padding-bottom: 1vw;
         font-size: 25px;
     }
+    .counter {
+        font-size: 100px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+    .counter-container {
+        margin-top: -50vw;
+        display: flex;
+        flex-direction: column;
+    }
     .counter-item {
         margin: 2vw;
-        margin-top: -800px;
         gap: 1vw;
     }
     .counter-cap {
         padding-top: 1vw;
         padding-bottom: 1vw;
-        font-size: 20px;
+        font-size: 40px;
     }
     .counter {
-        font-size: 60px;
+        font-size: 80px;
     }
 }
 
