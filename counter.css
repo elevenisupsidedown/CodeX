@@ -44,6 +44,10 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+    .counter-container{
+        margin-top: -30vw;
+        margin-bottom: -80vw;
+    }
     .counter-item {
         margin: 2vw;
         margin-top: -70vw;
@@ -92,4 +96,10 @@
     .counter {
         font-size: 40px;
 }
+}
+
+@media (min-width: 650px) and (max-width: 768px) {
+    .counter-container{
+        margin-bottom: -40vw;
+    }
 }

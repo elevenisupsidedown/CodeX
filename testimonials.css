@@ -1,0 +1,114 @@
+.testimonials {
+    margin-top: -40vw;
+    position: relative;
+    z-index: 4;
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+}
+
+.section2 {
+    position: sticky;
+    top: 1vw;
+    margin-left: 10vw;
+    margin-right: 50vw;
+}
+
+.slideshow-container{
+    margin-top: -13vw;
+    width: 40%;
+    margin-left: 60vw;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 10vw;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.fade-out {
+    animation: fadeOut 3s forwards;
+}
+
+.fade-in {
+    animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (min-width: 650px) and (max-width: 768px) {
+    .sectionh1 {
+        font-size: 8vw;
+        text-align: left;
+        margin-left: 4vw;
+    }
+    .sectionp {
+        font-size: 3.5vw;
+        text-align: left;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    .section2 {
+        position: relative;
+        top: 5vw;
+        margin: auto;
+        margin-bottom: 2vw;
+    }
+    .testimonials {
+        margin-top: -30vw;
+    }
+    .galaxy{
+        padding-top: 6vw;
+        margin: auto;
+        margin-bottom: -10vw;
+    }
+}
+
+@media (max-width: 649px){
+    .sectionh1 {
+        font-size: 8vw;
+        text-align: left;
+        margin-left: 4vw;
+        margin-top: 20vw;
+    }
+    .sectionp {
+        font-size: 3.5vw;
+        text-align: left;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    .section2 {
+        position: relative;
+        margin: auto;
+        margin-bottom: 2vw;
+    }
+    .testimonials {
+        margin-top: -20vw;
+    }
+    .galaxy{
+        padding-top: 10vw;
+        margin: auto;
+        padding-bottom: -20vw;
+    }
+}
