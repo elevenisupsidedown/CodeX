@@ -30,8 +30,7 @@
 .card1 img {
     width: 100%;
     height: auto;
-    transition: filter 0.5s ease;
-    filter: blur(4px);
+
 }
 
 .card1:hover img,
@@ -43,28 +42,48 @@
     transform: scale(1.05);
 }
 
-h3 {
-    color: #fff;
-    padding: 20px 20px 20px 20px;
-    text-align: center;
-}
-
 .card-h3 {
     font-family: "Syne", system-ui;
-    font-weight: 500;
-    font-size: 3vw;
-    padding: 20px 20px 10px 20px;
-    background-image: linear-gradient(#aecafffb, #e798ffbe);
-    background-clip: text;
-    color: transparent;
+    padding: 20px 0px 20px 0px;
+    font-family: "Syne", system-ui;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.7vw;
+    text-shadow: 4px 4px 10px rgba(0, 62, 155, 0.76);
+    color: #fff;
 }
 
 .card-p {
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
-    font-size: 1.6vw;
-    padding: 10px 20px 20px 20px;
+    text-align: justify;
+    font-size: 1.3vw;
+    padding: 10px 5px 10px 5px;
     color: #ffffff;
+}
+
+.moonobv{
+    font-size: 2.4vw;
+}
+
+/*Icons*/
+.fa-solid{
+    text-shadow: 0 0 20px rgba(0, 62, 155, 0.76);
+    color: #fff;
+    font-size: 1.5vw;
+    display: inline-block;
+    padding: 0 2vw 1vw 2vw;
+    width: 1vw;
+    margin: auto;
+}
+
+.location{
+    display: inline-block;
+    color: #b0ffffee;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+    padding-left: 1vw;
 }
 
 @media (max-width: 768px) {
@@ -90,7 +109,19 @@ h3 {
 
     .card-p {
         font-size: 3vw;
-}
+    }
+    .fa-solid{
+        font-size: 2.7vw;
+        padding-left: 3vw;
+    }
+    
+    .location{
+        font-size: 2.7vw;
+        padding-left: 3vw;
+    }
+    .moonobv{
+        font-size: 4.8vw;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -103,3 +134,4 @@ h3 {
         margin: 5vw;
     }
 }
+

@@ -1,11 +1,11 @@
 /*Navbar*/
 .logoimg{
-    width: 8vw; 
-    height: 8vw;
+    width: 15vw; 
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 0;
+    margin-top: 2vw;
     margin-left: 4vw;
 }
 

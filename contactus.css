@@ -21,7 +21,6 @@ input {
 .container {
     flex: 0 1 700px;
     margin: auto;
-    margin-right: 5vw;
     padding: 10px;
 }
 
@@ -36,8 +35,8 @@ input {
 }
 
 .screen {
-    margin-left: 38vw;
-    width: 55vw;
+    margin: auto;
+    width: 70%;
     position: relative;
     background: #0a0a0a;
     border-radius: 15px;
@@ -79,15 +78,15 @@ input {
 }
 
 .screen-header-button.one {
-    background: #F63C83;
+    background: #2E8B57;
 }
 
 .screen-header-button.two {
-    background: #B26CAF;
+    background: #20B2AA;
 }
 
 .screen-header-button.three {
-    background: #1FDAFF;
+    background: #1E90FF;
 }
 
 .screen-header-right {
@@ -120,24 +119,24 @@ input {
     display: flex;
     flex-direction: column;
     position: relative;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    color: #ffacdfaf; 
-    font-size: 3rem;
-    line-height: 3.5rem;
+    font-family: "Syne", system-ui;
+    font-weight: 600;
+    font-size: 6vw;
+    text-shadow: 4px 4px 10px rgba(0, 62, 155, 0.76);
+    color: #fff;
+    line-height: 6vw;
+    margin-top: 2vw;
 }
 
 .app-sub-title {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 1.5vw;
     flex-direction: column;
     position: relative;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3, #1FDAFF);
-    font-size: 1.1rem;
+    font-family: "Work Sans", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 2vw;
 }
 
 
@@ -187,7 +186,7 @@ input {
 .app-form-button {
     background: none;
     border: none;
-    color: #C9549A;
+    color: #528dc9;
     font-size: 14px;
     cursor: pointer;
     outline: none;
@@ -199,7 +198,7 @@ input {
 
 .contactsec{
     background-color: #000000;
-    height: 600vh;
+    height: 100vh;
     margin-top: 0vw;
     position: relative;
     z-index: 5;
@@ -240,5 +239,50 @@ input {
     .screen-body-item {
         padding: 0;
     }
+    .app-title {
+        font-size: 10vw;
+        line-height: 6vw;
+        margin-top: 2vw;
+    }
+    
+    .app-sub-title {
+        margin-top: 3vw;
+        font-weight: 300;
+        font-size: 4vw;
+    }
 }
+}
+
+@media screen and (max-width: 1000px) {
+    .app-title {
+        font-size: 8vw;
+        line-height: 6vw;
+        margin-top: 2vw;
+    }
+    
+    .app-sub-title {
+        margin-top: 2vw;
+        font-weight: 300;
+        font-size: 2.5vw;
+    }
+    .screen-body {
+        flex-direction: column;
+        margin-top: -2vw;
+    }
+
+    .screen-body-item.left {
+        margin-bottom: 30px;
+    }
+
+    .app-title {
+        flex-direction: row;
+    }
+
+    .app-title span {
+        margin-right: 12px;
+    }
+
+    .app-title:after {
+        display: none;
+    }
 }
