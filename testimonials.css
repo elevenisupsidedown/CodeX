@@ -14,6 +14,10 @@
     margin-right: 50vw;
 }
 
+.italic{
+    font-style: italic;
+}
+
 .slideshow-container{
     margin-top: -13vw;
     width: 40%;
