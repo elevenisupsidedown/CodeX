@@ -3,7 +3,7 @@
     position: relative;
     z-index: 4;
     background-color: black;
-    height: 1000px;
+    height: 180vh;
     width: 100%;
 }
 
@@ -16,6 +16,21 @@
 
 .italic{
     font-style: italic;
+    margin-top: 1vw;
+}
+
+.tag1{
+    margin-top: 1.5vw;
+    margin-bottom: -1.3vw;
+}
+
+.membertag{
+    font-style: italic;
+    text-align: right;
+    color: #b0ffffee;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.4vw;
 }
 
 .slideshow-container{
@@ -61,58 +76,31 @@
     to { opacity: 1; }
 }
 
-@media (min-width: 650px) and (max-width: 768px) {
-    .sectionh1 {
-        font-size: 8vw;
-        text-align: left;
-        margin-left: 4vw;
+@media (max-width: 768px) {
+    .testimonials{
+        padding-top: 20vw;
+        height: 250vh;
     }
-    .sectionp {
-        font-size: 3.5vw;
-        text-align: left;
-        margin-left: 4vw;
-        margin-right: 4vw;
+    .clearfix{
+        flex-direction: column;
     }
-    .section2 {
-        position: relative;
-        top: 5vw;
-        margin: auto;
-        margin-bottom: 2vw;
+    .italic{
+        font-size: 2vw;
     }
-    .testimonials {
-        margin-top: -30vw;
+    .testimonialsp{
+        margin-right: 1vw;
+        font-size: 3vw;
     }
-    .galaxy{
-        padding-top: 6vw;
-        margin: auto;
-        margin-bottom: -10vw;
+    .slideshow-container{
+        margin-left: 50vw;
     }
-}
-
-@media (max-width: 649px){
-    .sectionh1 {
-        font-size: 8vw;
-        text-align: left;
-        margin-left: 4vw;
-        margin-top: 20vw;
+    .testimonialsh1{
+        font-size: 6vw;
     }
-    .sectionp {
-        font-size: 3.5vw;
-        text-align: left;
-        margin-left: 4vw;
-        margin-right: 4vw;
+    .tag1{
+        margin-bottom: -2.3vw;
     }
-    .section2 {
-        position: relative;
-        margin: auto;
-        margin-bottom: 2vw;
-    }
-    .testimonials {
-        margin-top: -20vw;
-    }
-    .galaxy{
-        padding-top: 10vw;
-        margin: auto;
-        padding-bottom: -20vw;
+    .membertag{
+        font-size: 1.8vw;
     }
 }

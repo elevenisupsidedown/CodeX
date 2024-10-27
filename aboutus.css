@@ -62,10 +62,14 @@
         padding-top: 2vw;
         margin: auto;
         margin-bottom: -10vw;
+        width: 70%;
     }
 }
 
 @media (max-width: 649px){
+    .about-us{
+        height: 800px;
+    }
     .sectionh1 {
         font-size: 8vw;
         text-align: left;
@@ -90,5 +94,6 @@
         padding-top: 10vw;
         margin: auto;
         padding-bottom: -20vw;
+        width: 70%;
     }
 }

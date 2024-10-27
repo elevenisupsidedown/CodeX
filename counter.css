@@ -3,7 +3,7 @@
     flex-direction: row;  
     justify-content: center;
     align-items: center;
-    margin-top: -13vw;
+    margin-top: -20vw;
     position: relative;
     z-index: 5;
     background-color: black;
@@ -65,7 +65,8 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
     .counter-container {
-        margin-top: -50vw;
+        height: 150vh;
+        margin-top: -200px;
         display: flex;
         flex-direction: column;
     }

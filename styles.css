@@ -83,10 +83,10 @@ img {
     align-items: center;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:table;
 }
 
 ::-webkit-scrollbar {

@@ -14,6 +14,7 @@
     <!--<link rel="stylesheet" href="loader.css">-->
     <link rel="stylesheet" href="contactus.css">
     <link rel="stylesheet" href="testimonials.css">
+    <link rel="stylesheet" href="footer.css">
     
     <link rel="icon" type="image" href="Assets/favicon.png"/>
 
@@ -46,19 +47,19 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <div class="landing">
+    <div class="landing" id="home">
         <img src="Assets/galaxy.jpg" alt="galaxy image" class="landing-img">
         <h1 class="headline">Exploring the Universe<br>One Star at a Time</h1>
-        <img src="Assets/Untitled design (23).png" alt="earth-image" class="earth-img">
+        <img src="Assets/homebg.png" alt="earth-image" class="earth-img">
     </div>
 
-    <div class="about-us">
+    <div class="about-us" id="aboutus">
         <div class="clearfix">
         <div class="section">
             <h1 class="sectionh1" data-aos="fade-up">About Us</h1>
             <p class="sectionp" data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nihil hic expedita minima excepturi cum, sed porro et, animi sint magnam. Necessitatibus sed, unde consequatur voluptate tempora doloremque ab eligendi?</p>
         </div>
-        <div class="img" data-aos="fade-up"><img src="Assets/52bb6b3e52509d129c4bcb04ad74b3a0.jpg" alt="galaxy" class="galaxy"></div>
+        <div class="img" data-aos="fade-up"><img src="Assets/milkyway.png" alt="galaxy" class="galaxy"></div>
         </div>
     </div>
     <div class="counter-container clearfix">
@@ -76,7 +77,7 @@
         </div>
     </div>
 
-<div class="events">
+<div class="events" id="events">
     <div class="clearfix">
     <div class="section">
         <h1 class="sectionh1" data-aos="fade-up">Events</h1>
@@ -123,7 +124,7 @@
 </div>
 
     <!--Contact-->
-  <div class="container contactsec">
+  <div class="container contactsec" id="contactus">
     <div class="screen">
       <div class="screen-header">
         <div class="screen-header-left">
@@ -161,60 +162,91 @@
   </div>
   
 
-  <div class="testimonials">
+  <div class="testimonials" id="testimonials">
     <div class="clearfix">
     <div class="section2">
-        <h1 class="sectionh1" data-aos="fade-up">About Us</h1>
-        <p class="sectionp" data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nihil hic expedita minima excepturi cum, sed porro et, animi sint magnam. Necessitatibus sed, unde consequatur voluptate tempora doloremque ab eligendi?</p>
+        <h1 class="sectionh1 testimonialsh1" data-aos="fade-up">Testimonials</h1>
+        <p class="sectionp testimonialsp" data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nihil hic expedita minima excepturi cum, sed porro et, animi sint magnam. Necessitatibus sed, unde consequatur voluptate tempora doloremque ab eligendi?</p>
     </div>
     <div class="slideshow-container">
       <div class="mySlides fade-in fade-out">
         <div class="card1">
-          <img src="Assets/events/3.png" alt="Card Image 1">
+          <img src="Assets/testimonials/1.png" alt="Card Image 1">
           <p class="card-p italic">"This nonprofit has sparked my love for space! The workshops and stargazing events are fun and educational. I’ve learned so much about constellations and planets."</p>
-          <p class="location">Ayodh De Silva</p><br>
-          <p class="location">Student</p>
+          <p class="membertag tag1">Ayodh De Silva</p><br>
+          <p class="membertag">Student</p>
         </div>
       </div>
     
       <div class="mySlides fade-in fade-out">
         <div class="card1">
-          <img src="Assets/events/3.png" alt="Card Image 1">
+          <img src="Assets/testimonials/2.png" alt="Card Image 1">
           <p class="card-p italic">"With the nonprofit's support, our school’s astronomy circle has grown. Their resources have made our stargazing nights more engaging and educational."</p>
-          <p class="location">Astronomy Circle</p><br>
-          <p class="location">Leading Girls' School</p>
+          <p class="membertag tag1">Astronomy Circle</p><br>
+          <p class="membertag">Leading Girls' School</p>
         </div>
       </div>
 
       <div class="mySlides fade-in fade-out">
         <div class="card1">
-          <img src="Assets/events/3.png" alt="Card Image 1">
+          <img src="Assets/testimonials/3.png" alt="Card Image 1">
           <p class="card-p italic">"This nonprofit has been a valuable resource for my astrophysics studies. Their hands-on telescope sessions and expert talks go beyond what I learn in class."</p>
-          <p class="location">Liyana Rathnayake</p><br>
-          <p class="location">University Student majoring in Astrophysics</p>
+          <p class="membertag tag1">Liyana Rathnayake</p><br>
+          <p class="membertag">University Student majoring in Astrophysics</p>
         </div>
       </div>
 
       <div class="mySlides fade-in fade-out">
         <div class="card1">
-          <img src="Assets/events/3.png" alt="Card Image 1">
+          <img src="Assets/testimonials/4.png" alt="Card Image 1">
           <p class="card-p italic">"As a stargazer, I’ve gained so much from this nonprofit’s events. They’ve helped me understand the night sky and make the most of my telescope."</p>
-          <p class="location">Sanithu Karunarathne</p><br>
-          <p class="location">Stargazing enthusiast</p>
+          <p class="membertag tag1">Sanithu Karunarathne</p><br>
+          <p class="membertag">Stargazing enthusiast</p>
         </div>
       </div>
 
       <div class="mySlides fade-in fade-out">
         <div class="card1">
-          <img src="Assets/events/3.png" alt="Card Image 1">
+          <img src="Assets/testimonials/5.png" alt="Card Image 1">
           <p class="card-p italic">"The astro photography workshops have transformed my approach to capturing the night sky. I’ve learned new techniques that have greatly improved my photos."</p>
-          <p class="location">Rehan Hussain</p><br>
-          <p class="location">Astro Photographer</p>
+          <p class="membertag tag1">Rehan Hussain</p><br>
+          <p class="membertag">Astro Photographer</p>
         </div>
       </div>
 </div>
 </div>
 </div>
+
+
+<!--Footer-->
+<footer>
+  <hr>
+    <div class="footer-content">
+      <div class="footer2">
+        <img src="Assets/logo.png" alt="" class="footerlogo">
+      </div>
+      <div class="footer3">
+        <h1 class="footerh1">quick links</h1>
+        <a href="#home"><p class="quick">home</p></a>
+        <a href="#aboutus"><p class="quick">about us</p></a>
+        <a href="#events"><p class="quick">events</p></a>
+        <a href="#contactus"><p class="quick">contact us</p></a>
+        <a href="#testimonials"><p class="quick">testimonials</p></a>
+      </div>
+        <div class="footer1">
+            <h1 class="footerh1">contact us</h1>
+            <div class="icon-container">
+                <a href="https://www.instagram.com" target="_blank"><i class="contacticon fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class=" contacticon fa-brands fa-facebook"></i></a>
+                <a href="https://lk.linkedin.com/" target="_blank"><i class=" contacticon fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="contacticon fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Designed and developed by <br> &copy; Hesara Sethumni | 2024.</p>
+    </div>
+</footer>
 
 
 
