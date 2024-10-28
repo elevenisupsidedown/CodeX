@@ -94,14 +94,31 @@ img {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 4px;
+    background-color: #007ab333;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background-color: #8bdaff3d;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 8px;
+}
+
+::-webkit-scrollbar-track:horizontal {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #000000;
 }
